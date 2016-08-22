@@ -1,0 +1,234 @@
+/*css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+	width:1000px;
+	background-color:white;
+	margin: 0 auto;
+}
+.topicon{
+	height:30px;
+	background-color:#f6f6f6;
+}
+.topicon li{
+	float:right;
+	padding-left:10px;
+	padding-right:10px;
+	line-height:30px;
+}
+.topicon li a{
+	text-decoration:none;
+}
+#fb a{
+	color:#667aad;
+}
+#twitter a{
+	color:#3fb5ed;
+}
+.clearfix{
+	clear:both;
+}
+
+.topmenu{
+	height:48px;
+}
+.logo{
+	float:left;
+	height: 48px;
+}
+.logo a{
+	background: url(../images/logo.png);
+	background-repeat: no-repeat;
+	margin-top:6px;
+	margin-bottom:6px;
+	margin-left: 10px;
+	display: block;
+	width:174px;
+	height:36px;
+
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}
+.logomenu li{
+	float:right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height:48px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+.logomenu li a{
+	text-decoration: none;
+	color: #26d0a1;
+}
+.logomenu li a:hover ,.headertop li a:hover{
+	text-decoration: none;
+	color: red;
+}
+.content li{
+	float:left;
+	margin-top: 20px;
+	margin-right:16px;
+	margin-left:16px;
+}
+.content-center h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top:100px;
+	margin-bottom: 20px;
+}
+.compare{
+	margin-left: auto;
+	margin-right: auto;
+}
+.compare th,.compare td{
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	padding: 10px 50px 10px 50px;
+}
+.compare th{
+	background-color: #f7f7f7;
+	font-weight: bold;
+}
+.blue{
+	color: #58ba9c;
+}
+
+.button-form{
+	background: url('../images/button_background.png');
+	background-repeat:repeat;
+	margin-top: 100px;
+	height: 405px;
+
+}
+.button-form #no1{
+	padding-top: 50px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.button-form #no2{
+	padding-top: 20px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.button-form-left input{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 200px;
+	width: 440px;
+	float: left;
+}
+.button-form-right{
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.button-form-right input{
+	width: 400px;
+}
+.button-form-right div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.button-form-right h3{
+	color: white;
+	font-size: 15px;
+}
+.button-form-right .submit{
+	cursor:pointer;
+	color: white;
+	background-color: #00cc99;
+	width: 40px;
+	float: right;
+}
+.button-form-right .submit:hover{
+	text-decoration: none;
+	color: red;
+}
+.button-form input{
+	border-radius: 5px;
+}
+.footer{
+	height: 100px;
+}
+.logo2{
+	float:left;
+	height: 48px;
+}
+.logo2 a{
+	background: url('../images/logo2.jpg');
+	background-repeat: no-repeat;
+	margin-top:20px;
+	margin-bottom:6px;
+	margin-left: 10px;
+	display: block;
+	width:174px;
+	height:36px;
+
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.information{
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.information li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.information span{
+	display: inline-block;
+	color: #e12d80;
+}
